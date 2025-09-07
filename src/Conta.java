@@ -1,11 +1,9 @@
-
+import java.util.Scanner;
 
 public class Conta {
 
     private float saldo;
     private float chequeEspecial;
-
-    Banco banco = new Banco();
 
     public void criarConta(float deposito){
 
@@ -19,6 +17,7 @@ public class Conta {
         System.out.println("Seu saldo é de: " + saldo);
         System.out.println("Seu cheque especial possui um valor de: " + chequeEspecial);
     }
+
 
     public void consultarSaldo(){
         System.out.println("Saldo atual: " + saldo);
